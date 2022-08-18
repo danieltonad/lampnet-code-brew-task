@@ -1,0 +1,28 @@
+.animi-button {
+  color: white;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  .text {
+    font-weight: 150;
+    width: 70%;
+  }
+  .ico {
+    // border: 1px solid black;
+    width: 30%;
+    text-align: center;
+    position: relative;
+    #dot-ico{
+        color: #508E01 !important;
+        background: white;
+        border: 1px solid white;
+        border-radius: 70%;
+    }
+    &::after{
+        content: '1';
+        color: transparent;
+    }
+  }
+}

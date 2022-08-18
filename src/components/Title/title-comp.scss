@@ -1,0 +1,22 @@
+.Title-Comp {
+    width: 94%;
+    margin: 1% auto;
+    #s-ico{
+      color: #74AE21;
+      font-size: 1.5rem;
+    }
+    .s-title {
+      display: flex;
+      justify-content: space-between;
+      width: 8rem;
+      font-size: 1.2rem;
+      font-weight: 400;
+      text-transform: uppercase;
+      align-items: center;
+      align-content: center;
+    }
+    .s-title-bold {
+      font-weight: 600 ;
+      font-size: 1.5rem;
+    }
+  }
